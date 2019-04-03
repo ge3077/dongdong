@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引包 -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+    <!-- 引入自己的样式 -->
+    <link rel="stylesheet" href="./less/index.css">
+
+</head>
+<body>
+  
+  <!-- 头部区域 -->
+  <header id="header">
+    <!-- 使用导航条组件 -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- 导航条头部 展开按钮 -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="">
+          </a>
+        </div>
+    
+        <!-- 每一个链接 -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        
+       
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="active">首页</a></li>
+            <li><a href="#">签证指南</a></li>
+            <li><a href="#">签证加急</a></li>
+            <li><a href="#">签证服务</a></li>
+            <li><a href="#">签证资讯</a></li>
+            <li><a href="#">资料下载</a></li>
+
+            
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+  </header>
+
+  <!-- 轮播图区域 -->
+  <section id="slide">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- 小圆点 -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+     
+      </ol>
+    
+      <!-- 图片 -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+             <div class="large-image hidden-xs" style="background-image: url(./images/banner1-large.png)"></div>
+             <img src="./images/banner1-small.png" alt="" class="small-image visible-xs">
+        </div>
+        <div class="item">
+          <div class="large-image hidden-xs" style="background-image: url(./images/banner2-large.png)"></div>
+          <img src="./images/banner2-small.png" alt="" class="small-image visible-xs">
+     </div>
+  
+      </div>
+    
+      <!-- 左右箭头 -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+<!-- 成绩区域 -->
+<section id="score">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>我们的成绩</h2>
+       <h4>2018年1月1日至2018年12月30日，我们的接待数据。</h4>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="num">
+          <p class="data">18,397</p>
+          <h4>累计受理申请</h4>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="num">
+          <p class="data">98.8</p>
+          <h4>综合通过率</h4>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="num">
+          <p class="data">3273</p>
+          <h4>加急申请人数</h4>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="num">
+          <p class="data">100%</p>
+          <h4>加急成功率</h4>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 优势区域 -->
+<section id="advantage">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>我们的优势</h2>
+       <h4>每一份签证申请都是独立个案，每一位申请人都应该被认真对待。</h4>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="num">
+          自定义内容组件
+        </div>
+      </div>
+      
+      
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- 引入js -->
+<script src="./lib/jquery/jquery.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.js"></script>
+
+</body>
+</html>
